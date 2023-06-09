@@ -1,7 +1,6 @@
 
 .hero-section{
     height: 100vh;
-    position: relative;
     background-image: linear-gradient( to right bottom 
     , rgba(56, 18, 18, 0.692), rgb(26, 26, 71));
 
@@ -85,11 +84,12 @@
 }
 
 .prof-box{
-    margin-top: 6.4rem;
+    margin-top: 4.8rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 } 
 
 .position{
@@ -101,7 +101,6 @@
 .masoma-ph{
     height: 35rem;
     border-radius:var(--default-radius) ;
-    margin-top: 4.8rem;
 }
 
 .masoma{
@@ -131,10 +130,8 @@
 }
 
 .describtion-section{
-     padding: 6rem 0;
-     display: flex;
-     justify-content: center;
-     align-items: center;
+     padding: 6rem 3rem;
+    
 }
 
 .text-work{
